@@ -8,4 +8,6 @@ Para rodar esse projeto na sua máquina, por favor digite:
 node app.js
 ```
 
+Alteração feita por: Natan
+
 :)
