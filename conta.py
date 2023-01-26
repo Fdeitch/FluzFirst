@@ -1,6 +1,6 @@
 class Conta:
     def __init__(self,numero,titular,saldo,limite):
-        #print(f'Construindo objeto...{self}')
+        print(f'Construindo objeto...{self}')
         self.__numero=numero
         self.__titular=titular
         self.__saldo=saldo
@@ -38,5 +38,3 @@ class Conta:
     @staticmethod
     def codigos_bancos():
         return {'BB':'001','Caixa':'104','Bradesco':'237'}
-from conta import Conta 
-print(Conta.codigo_banco())       
